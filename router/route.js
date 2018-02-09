@@ -13,4 +13,7 @@ router.post('/match', function (req, res, next) {
   return next()
 })
 
+router.get('/', function (req, res, next) {
+  res.json({"hello":"world"})
+})
 module.exports = router
