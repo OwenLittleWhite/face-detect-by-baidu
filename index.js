@@ -45,6 +45,6 @@ server.pre(function (request, response, next) {
 
 route.applyRoutes(server)
 
-server.listen(conf.port, function () {
+server.listen(process.env.PORT, function () {
   console.log('%s listening at :%s ', server.name, server.url)
 })
