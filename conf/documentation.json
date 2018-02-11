@@ -1,0 +1,24 @@
+{
+  "/": "documentation",
+  "/detect": {
+    "method": "post",
+    "params": [{
+      "name": "target",
+      "type": "base64Url",
+      "description": "the base64url of the picture that will be detected"
+    }]
+  },
+  "/match": {
+    "method": "post",
+    "params": [{
+      "name": "target1",
+      "type": "base64Url",
+      "description": "the base64url of the picture that will be compared"
+    },
+    {
+      "name": "target2",
+      "type": "base64Url",
+      "description": "the base64url of the picture that will be compared"
+    }]
+  }
+}

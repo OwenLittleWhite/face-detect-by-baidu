@@ -14,6 +14,6 @@ router.post('/match', function (req, res, next) {
 })
 
 router.get('/', function (req, res, next) {
-  res.json({"hello":"world"})
+  res.json(require('../conf/documentation.json'))
 })
 module.exports = router
